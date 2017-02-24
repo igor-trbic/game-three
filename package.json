@@ -1,0 +1,27 @@
+{
+  "name": "game-three",
+  "description": "Let's see how gaming works",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Igor Trbic",
+    "email": "trbic.igor@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igor-trbic/game-three.git"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "three": "0.84.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
