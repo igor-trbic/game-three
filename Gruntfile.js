@@ -47,8 +47,8 @@ module.exports = function(grunt) {
     },
     watch: {
       css: {
-        files: 'client/**/*',
-        tasks: ['clean', 'copy'],
+        files: 'client/src/**/*',
+        tasks: ['copy'],
         options: {
           livereload: true
         }
