@@ -25,6 +25,12 @@ module.exports = function(grunt) {
             cwd: '<%= srcdir%>/js/',
             src: ['*.js'],
             dest: '<%= distdir %>/vendor/js'
+          },
+          {
+            expand: true,
+            cwd: '<%= srcdir%>/css/',
+            src: ['*.css'],
+            dest: '<%= distdir %>/vendor/css'
           }
         ]
       },
